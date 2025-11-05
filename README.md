@@ -139,18 +139,21 @@ Eve            33        F
    python gradebook.py
 5. Follow the menu prompts on the screen.
 
-✅ Evaluation Rubric
-Criteria	                      Weight	          Evaluation
-Program setup & structure	      10%	       ✅ Well-organized
-Data input & storage	           15%	       ✅ Works with validation
-Statistical analysis	           15%	       ✅ All correct
-Grade logic	                    15%	       ✅ Modular and accurate
-Pass/fail logic	                10%	       ✅ Clear and correct
-Table display & loop	           15%	       ✅ Nicely formatted
-Code readability	               10%	       ✅ Clean and commented
-Overall accuracy	               10%	       ✅ Verified
+## 📋 Evaluation Rubric
 
-💬 Author’s Note
+| Criteria | Weight | Evaluation |
+| :--- | :---: | :--- |
+| Program setup & structure | 10% | ✅ Well-organized |
+| Data input & storage | 15% | ✅ Works with validation |
+| Statistical analysis | 15% | ✅ All correct |
+| Grade logic | 15% | ✅ Modular and accurate |
+| Pass/fail logic | 10% | ✅ Clear and correct |
+| Table display & loop | 15% | ✅ Nicely formatted |
+| Code readability | 10% | ✅ Clean and commented |
+| Overall accuracy | 10% | ✅ Verified |
 
-This project demonstrates how Python can simplify real-life academic tasks such as grading and performance evaluation.
-It was created as part of the Programming for Problem Solving using Python course under the IBM-supported B.Tech CSE (Data Science) program at K.R. Mangalam University.
+---
+
+### ✍️ Author's Note
+
+This project demonstrates how Python can simplify real-life academic tasks such as grading and performance. It was created as part of the Programming for Problem Solving using Python course under the IBM-support.
