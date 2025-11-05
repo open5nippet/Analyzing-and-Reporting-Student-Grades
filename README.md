@@ -40,49 +40,48 @@ gradebook_analyzer/
 
 ---
 
+
+---
+
 ## ⚙️ Features Implemented
 
-| Task | Description | Concepts Used |
-|------|--------------|---------------|
+| Task | Description | Key Concepts Used |
+|------|--------------|------------------|
 | **Task 1** | Project setup & initialization | Functions, print statements |
-| **Task 2** | Data entry & validation | Input handling, loops |
-| **Task 3** | Statistical analysis | Mathematical functions |
+| **Task 2** | Data entry & validation | Input, loops, exception handling |
+| **Task 3** | Statistical analysis | Mathematical logic |
 | **Task 4** | Grade assignment | Conditional statements |
-| **Task 5** | Pass/fail separation | List comprehensions |
-| **Task 6** | Results table display | f-string formatting |
+| **Task 5** | Pass/Fail separation | List comprehensions |
+| **Task 6** | Result table display | f-string formatting |
 | **Task 7** | Combined analyzer | Modular programming |
 
 ---
 
 ## 🧠 Program Flow
 
-1. Displays a menu to the user.  
-2. Allows entry of student data.  
-3. Performs automatic analysis:  
-   - Average, Median, Highest, Lowest  
-   - Grade Assignment (A–F)  
-   - Pass/Fail Summary  
-   - Formatted Results Table  
-4. Allows re-running analysis or exiting.
+1. Displays a main menu with available options.  
+2. User inputs student names and marks.  
+3. Program automatically:
+   - Calculates **average, median, highest, and lowest** marks.  
+   - Assigns **grades (A–F)** to each student.  
+   - Filters **pass and fail** students.  
+   - Shows all data in a **formatted table**.  
+4. User can re-run analysis or exit anytime.
 
 ---
 
 ## 🧾 Example Output
 
+```text
 ==============================
-GRADEBOOK ANALYZER
-
-1)Enter student data & analyze
-
-2)Show statistics
-
-3)Show grade distribution
-
-4)Show pass/fail list
-
-5)Show full results table
-
-6)Exit
+      GRADEBOOK ANALYZER
+==============================
+1. Enter student data & analyze
+2. Show statistics
+3. Show grade distribution
+4. Show pass/fail list
+5. Show full results table
+6. Exit
 Enter your choice (1-6): 1
 
 Enter number of students: 5
@@ -101,9 +100,9 @@ Enter marks for Eve: 33
 
 📊 --- STATISTICS ---
 Average Marks : 64.00
-Median Marks : 68.00
+Median Marks  : 68.00
 Highest Score : 95 (Bob)
-Lowest Score : 33 (Eve)
+Lowest Score  : 33 (Eve)
 
 🎯 --- GRADE DISTRIBUTION ---
 Grade A: 1 student(s)
@@ -117,15 +116,14 @@ Passed (4): Alice, Bob, Carol, Dan
 Failed (1): Eve
 
 📋 --- FINAL RESULT TABLE ---
-Name     Marks     Grade
-Alice     82         B
-Bob       95         A
-Carol     68         D
-Dan       42         D
-Eve       33         F
-
-
----
+Name           Marks     Grade
+------------------------------
+Alice          82        B
+Bob            95        A
+Carol          68        D
+Dan            42        D
+Eve            33        F
+------------------------------
 
 ## 🧰 Technologies Used
 
