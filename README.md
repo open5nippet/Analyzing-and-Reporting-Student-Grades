@@ -33,13 +33,8 @@ This project demonstrates how **Python’s data structures, loops, and condition
 ## 🧩 Project Structure
 
 gradebook_analyzer/
- │
- ├── gradebook.py # Main project file
- └── README.md # Documentation
-
-
----
-
+ |-gradebook.py # Main project file 
+ |-README.md # Documentation
 
 ---
 
@@ -146,14 +141,14 @@ Eve            33        F
 
 ✅ Evaluation Rubric
 Criteria	                      Weight	          Evaluation
-Program setup & structure	     10%	       ✅ Well-organized
+Program setup & structure	      10%	       ✅ Well-organized
 Data input & storage	           15%	       ✅ Works with validation
 Statistical analysis	           15%	       ✅ All correct
 Grade logic	                    15%	       ✅ Modular and accurate
-Pass/fail logic	              10%	       ✅ Clear and correct
+Pass/fail logic	                10%	       ✅ Clear and correct
 Table display & loop	           15%	       ✅ Nicely formatted
-Code readability	              10%	       ✅ Clean and commented
-Overall accuracy	              10%	       ✅ Verified
+Code readability	               10%	       ✅ Clean and commented
+Overall accuracy	               10%	       ✅ Verified
 
 💬 Author’s Note
 
