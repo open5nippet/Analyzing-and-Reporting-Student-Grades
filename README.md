@@ -74,7 +74,7 @@ After analysis, the user can either continue or exit.
       GRADEBOOK ANALYZER
 ==============================
 1. Enter student data & analyze
-2. Show statistics
+2. 2. Show statistics
 3. Show grade distribution
 4. Show pass/fail list
 5. Show full results table
