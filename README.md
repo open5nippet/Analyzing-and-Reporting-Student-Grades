@@ -1,84 +1,89 @@
-🧮 GradeBook Analyzer – Mini Project
+# 🧮 GRADEBOOK ANALYZER
 
-Name: Ayush Kumar
-Roll No: 2501420003
-Date: 05-November-2025
-Course: Programming for Problem Solving using Python
-Instructor: Jyoti Yadav
-Project Type: Individual (Mini Project)
+**Name:** Ayush Kumar  
+**Roll No:** 2501420003  
+**Date:** 05-November-2025  
+**Course:** Programming for Problem Solving using Python  
+**Instructor:** Jyoti Yadav  
+**Project Type:** Individual (Mini Project)  
+**Weightage:** 15% (5 Marks)
 
-📘 Project Overview
+---
 
-The GradeBook Analyzer is a Python mini project that automates the process of managing and analyzing student marks.
-Instead of manually calculating averages or grades, this program allows a teacher to input student names and marks, and the software instantly computes statistics, assigns grades, separates pass/fail students, and displays results in a clean tabular format.
+## 📘 Project Overview
 
-It demonstrates how Python’s built-in data structures (lists, dictionaries, loops, and conditionals) can be used to solve a real-world educational problem.
+The **GradeBook Analyzer** is a Python-based console project that helps teachers automatically analyze student performance after a class test.  
+It collects student names and marks, calculates average and median scores, assigns grades, separates pass/fail students, and displays results in a formatted table.
 
-🎯 Learning Outcomes
+This project demonstrates how **Python’s data structures, loops, and conditionals** can be applied in real-world educational tasks.
 
-By completing this project, students will learn how to:
+---
 
-Collect and store user input efficiently using loops and dictionaries.
+## 🎯 Learning Objectives
 
-Implement functions to structure a modular Python program.
+- Use **dictionaries** and **loops** for storing and processing data.  
+- Write **modular functions** to organize logic.  
+- Perform **statistical analysis**: average, median, min, max.  
+- Implement **grading logic** using if–elif–else.  
+- Apply **list comprehensions** for pass/fail filtering.  
+- Format and display results using **f-strings**.  
+- Create a **menu-driven application**.
 
-Perform statistical calculations (average, median, max, min).
+---
 
-Apply conditional logic for grading systems.
+## 🧩 Project Structure
 
-Use list comprehensions for pass/fail classification.
-
-Format output neatly using f-strings.
-
-Create a menu-driven console application with re-run functionality.
-
-🧩 Project Structure
 gradebook_analyzer/
 │
-├── gradebook.py      # Main Python program file
-└── README.md          # Documentation file
+├── gradebook.py # Main project file
+└── README.md # Documentation
 
-⚙️ Features Implemented
-Task	Description	Python Concepts Used
-Task 1	Setup & menu system	Functions, print formatting
-Task 2	Data entry & validation	Loops, try/except handling
-Task 3	Statistical analysis	Math operations, functions
-Task 4	Grade assignment	If–elif–else conditions
-Task 5	Pass/fail separation	List comprehensions
-Task 6	Result table display	String formatting, loops
-Task 7	Full analysis automation	Function calls, modular design
-🧠 Program Flow
 
-Program starts and displays a menu.
+---
 
-The user chooses whether to:
+## ⚙️ Features Implemented
 
-Enter new student data,
+| Task | Description | Concepts Used |
+|------|--------------|---------------|
+| **Task 1** | Project setup & initialization | Functions, print statements |
+| **Task 2** | Data entry & validation | Input handling, loops |
+| **Task 3** | Statistical analysis | Mathematical functions |
+| **Task 4** | Grade assignment | Conditional statements |
+| **Task 5** | Pass/fail separation | List comprehensions |
+| **Task 6** | Results table display | f-string formatting |
+| **Task 7** | Combined analyzer | Modular programming |
 
-View statistics,
+---
 
-See grade distribution,
+## 🧠 Program Flow
 
-Check pass/fail summary, or
+1. Displays a menu to the user.  
+2. Allows entry of student data.  
+3. Performs automatic analysis:  
+   - Average, Median, Highest, Lowest  
+   - Grade Assignment (A–F)  
+   - Pass/Fail Summary  
+   - Formatted Results Table  
+4. Allows re-running analysis or exiting.
 
-Display the final results table.
+---
 
-The program performs the selected task using functions.
-
-After analysis, the user can either continue or exit.
-
-🧾 Example Output
-🎓 Welcome to the GradeBook Analyzer!
+## 🧾 Example Output
 
 ==============================
-      GRADEBOOK ANALYZER
-==============================
-1. Enter student data & analyze
-2. 2. Show statistics
-3. Show grade distribution
-4. Show pass/fail list
-5. Show full results table
-6. Exit
+GRADEBOOK ANALYZER
+
+1)Enter student data & analyze
+
+2)Show statistics
+
+3)Show grade distribution
+
+4)Show pass/fail list
+
+5)Show full results table
+
+6)Exit
 Enter your choice (1-6): 1
 
 Enter number of students: 5
@@ -97,9 +102,9 @@ Enter marks for Eve: 33
 
 📊 --- STATISTICS ---
 Average Marks : 64.00
-Median Marks  : 68.00
+Median Marks : 68.00
 Highest Score : 95 (Bob)
-Lowest Score  : 33 (Eve)
+Lowest Score : 33 (Eve)
 
 🎯 --- GRADE DISTRIBUTION ---
 Grade A: 1 student(s)
@@ -113,50 +118,46 @@ Passed (4): Alice, Bob, Carol, Dan
 Failed (1): Eve
 
 📋 --- FINAL RESULT TABLE ---
-Name           Marks     Grade
-------------------------------
-Alice          82        B
-Bob            95        A
-Carol          68        D
-Dan            42        D
-Eve            33        F
-------------------------------
-
-🧰 Technologies Used
-
-Language: Python 3.13
-
-Libraries: None (uses only built-in functions)
-
-Platform: Console / Command Line Interface
-
-▶️ How to Run the Program
-
-Save the program as gradebook.py.
-
-Open VS Code, IDLE, or a terminal window.
-
-Navigate to the folder containing the file.
-
-Run the program using:
-
-python gradebook.py
+Name     Marks     Grade
+Alice     82         B
+Bob       95         A
+Carol     68         D
+Dan       42         D
+Eve       33         F
 
 
-Follow the menu prompts on the screen.
+---
+
+## 🧰 Technologies Used
+
+- **Language:** Python 3.10+  
+- **Libraries:** None (only built-in functions)  
+- **Platform:** Console / Terminal  
+
+---
+
+## ▶️ How to Run
+
+1. Save the file as `gradebook.py`.  
+2. Open your terminal or IDE.  
+3. Navigate to the folder containing the file.  
+4. Run the command:
+
+   ```bash
+   python gradebook.py
+5. Follow the menu prompts on the screen.
 
 ✅ Evaluation Rubric
-Criteria	Weight	Performance
-Program setup & structure	10%	✅ Well-organized
-Data input & storage	15%	✅ Works with validation
-Statistical analysis	15%	✅ All correct
-Grade logic	15%	✅ Modular and accurate
-Pass/fail logic	10%	✅ Clear and correct
-Table display & loop	15%	✅ Nicely formatted
-Code readability	10%	✅ Clean and commented
-Overall accuracy	10%	✅ Verified
+Criteria	                      Weight	          Evaluation
+Program setup & structure	     10%	       ✅ Well-organized
+Data input & storage	           15%	       ✅ Works with validation
+Statistical analysis	           15%	       ✅ All correct
+Grade logic	                       15%	       ✅ Modular and accurate
+Pass/fail logic	                 10%	       ✅ Clear and correct
+Table display & loop	           15%	       ✅ Nicely formatted
+Code readability	                 10%	       ✅ Clean and commented
+Overall accuracy	                 10%	       ✅ Verified
 💬 Author’s Note
 
-This mini-project demonstrates how Python can simplify everyday academic tasks such as grade analysis and student performance evaluation.
-It was developed as part of the Programming for Problem Solving using Python course at
-K.R. Mangalam University (IBM Supported B.Tech – CSE Data Science Program).
+This project demonstrates how Python can simplify real-life academic tasks such as grading and performance evaluation.
+It was created as part of the Programming for Problem Solving using Python course under the IBM-supported B.Tech CSE (Data Science) program at K.R. Mangalam University.
