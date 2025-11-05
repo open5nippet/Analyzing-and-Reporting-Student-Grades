@@ -5,8 +5,7 @@
 **Date:** 05-November-2025  
 **Course:** Programming for Problem Solving using Python  
 **Instructor:** Jyoti Yadav  
-**Project Type:** Individual (Mini Project)  
-**Weightage:** 15% (5 Marks)
+**Project Type:** Individual (Mini Project)
 
 ---
 
@@ -152,11 +151,11 @@ Criteria	                      Weight	          Evaluation
 Program setup & structure	     10%	       ✅ Well-organized
 Data input & storage	           15%	       ✅ Works with validation
 Statistical analysis	           15%	       ✅ All correct
-Grade logic	                       15%	       ✅ Modular and accurate
-Pass/fail logic	                 10%	       ✅ Clear and correct
+Grade logic	                    15%	       ✅ Modular and accurate
+Pass/fail logic	              10%	       ✅ Clear and correct
 Table display & loop	           15%	       ✅ Nicely formatted
-Code readability	                 10%	       ✅ Clean and commented
-Overall accuracy	                 10%	       ✅ Verified
+Code readability	              10%	       ✅ Clean and commented
+Overall accuracy	              10%	       ✅ Verified
 💬 Author’s Note
 
 This project demonstrates how Python can simplify real-life academic tasks such as grading and performance evaluation.
