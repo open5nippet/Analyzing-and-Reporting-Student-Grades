@@ -34,9 +34,9 @@ This project demonstrates how **Python’s data structures, loops, and condition
 
 gradebook_analyzer/
  
- |-gradebook.py # Main project file 
+   |-gradebook.py # Main project file 
  
- |-README.md # Documentation
+   |-README.md # Documentation
 
 ---
 
