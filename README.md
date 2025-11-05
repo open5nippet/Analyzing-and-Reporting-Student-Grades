@@ -33,9 +33,9 @@ This project demonstrates how **Python’s data structures, loops, and condition
 ## 🧩 Project Structure
 
 gradebook_analyzer/
-│
-├── gradebook.py # Main project file
-└── README.md # Documentation
+ │
+ ├── gradebook.py # Main project file
+ └── README.md # Documentation
 
 
 ---
@@ -154,6 +154,7 @@ Pass/fail logic	              10%	       ✅ Clear and correct
 Table display & loop	           15%	       ✅ Nicely formatted
 Code readability	              10%	       ✅ Clean and commented
 Overall accuracy	              10%	       ✅ Verified
+
 💬 Author’s Note
 
 This project demonstrates how Python can simplify real-life academic tasks such as grading and performance evaluation.
